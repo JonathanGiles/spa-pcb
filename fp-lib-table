@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "SpaNet Imports")(type "KiCad")(uri "${KIPRJMOD}/kicad")(options "")(descr ""))
+  (lib (name "kicad")(type "KiCad")(uri "${KIPRJMOD}/kicad")(options "")(descr ""))
 )
