@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "kicad")(type "KiCad")(uri "${KIPRJMOD}/kicad")(options "")(descr ""))
   (lib (name "ESP32_S3_MINI_1_N8")(type "KiCad")(uri "${KIPRJMOD}/kicad/ESP32_S3_MINI_1_N8")(options "")(descr ""))
+  (lib (name "turbocase")(type "KiCad")(uri "${KIPRJMOD}/kicad/turbocase")(options "")(descr ""))
 )
