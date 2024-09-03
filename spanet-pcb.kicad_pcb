@@ -510,18 +510,7 @@
 			(pintype "passive")
 			(uuid "c62193da-e6ad-41d0-94af-15a59041c515")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/kicad/PTS810SJK250SMTRLFS--3DModel-STEP-56544.STEP"
+		(model "${KIPRJMOD}/kicad/Buttons/PTS810SJK250SMTRLFS--3DModel-STEP-56544.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3891,18 +3880,7 @@
 			(pintype "passive")
 			(uuid "d23b25cb-ad9e-4937-85ac-c6e5337b7269")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/kicad/1812L110_24DR.STEP"
+		(model "${KIPRJMOD}/kicad/Fuse/1812L110_24DR.STEP"
 			(offset
 				(xyz 0 0 1)
 			)
@@ -4699,7 +4677,7 @@
 			(pintype "passive")
 			(uuid "1264d0c1-855f-42b6-9e36-f85dea7a3970")
 		)
-		(model "${KIPRJMOD}/kicad/PTS810SJK250SMTRLFS--3DModel-STEP-56544.STEP"
+		(model "${KIPRJMOD}/kicad/Buttons/PTS810SJK250SMTRLFS--3DModel-STEP-56544.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6524,7 +6502,7 @@
 			(pintype "passive")
 			(uuid "1ec9bcfe-a59a-44e6-8f21-5c7d67fb64b9")
 		)
-		(model "R-RJ45R08P-A004.stp"
+		(model "${KIPRJMOD}/kicad/RJ-45/R-RJ45R08P-A004.stp"
 			(offset
 				(xyz 0 0 0)
 			)

@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "esp32-s3-mini")(type "KiCad")(uri "${KIPRJMOD}/kicad/ESP32_S3_MINI_1_N8/ESP32-S3-MINI-1-N8.kicad_sym")(options "")(descr ""))
-  (lib (name "rj45-connector")(type "KiCad")(uri "${KIPRJMOD}/kicad/R-RJ45R08P-A004.kicad_sym")(options "")(descr ""))
+  (lib (name "rj45-connector")(type "KiCad")(uri "${KIPRJMOD}/kicad/RJ-45/R-RJ45R08P-A004.kicad_sym")(options "")(descr ""))
 )

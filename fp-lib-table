@@ -1,6 +1,8 @@
 (fp_lib_table
   (version 7)
-  (lib (name "kicad")(type "KiCad")(uri "${KIPRJMOD}/kicad")(options "")(descr ""))
+  (lib (name "Buttons")(type "KiCad")(uri "${KIPRJMOD}/kicad/Buttons")(options "")(descr ""))
   (lib (name "ESP32_S3_MINI_1_N8")(type "KiCad")(uri "${KIPRJMOD}/kicad/ESP32_S3_MINI_1_N8")(options "")(descr ""))
-  (lib (name "turbocase")(type "KiCad")(uri "${KIPRJMOD}/kicad/turbocase")(options "")(descr ""))
+  (lib (name "Turbocase")(type "KiCad")(uri "${KIPRJMOD}/kicad/turbocase")(options "")(descr ""))
+  (lib (name "RJ-45")(type "KiCad")(uri "${KIPRJMOD}/kicad/RJ-45")(options "")(descr ""))
+  (lib (name "Fuse")(type "KiCad")(uri "${KIPRJMOD}/kicad/Fuse")(options "")(descr ""))
 )
