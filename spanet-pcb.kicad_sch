@@ -4754,6 +4754,321 @@
 				)
 			)
 		)
+		(symbol "R-RJ45R08P-B000:R-RJ45R08P-B000"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 21.59 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "R-RJ45R08P-B000"
+				(at 21.59 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "RRJ45R08PB000"
+				(at 21.59 -89.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Ckmtw-Shenzhen-Cankemeng-R-RJ45R08P-B000_C386756.pdf"
+				(at 21.59 -189.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ethernet Connectors/Modular Connectors (RJ45 RJ11) Through Hole RoHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "13.4"
+				(at 21.59 -389.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Ckmtw(Shenzhen Cankemeng)"
+				(at 21.59 -489.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "R-RJ45R08P-B000"
+				(at 21.59 -589.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 21.59 -689.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 21.59 -789.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 21.59 -889.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 21.59 -989.84 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "R-RJ45R08P-B000_1_1"
+				(rectangle
+					(start 5.08 7.62)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 7.62 12.7 270)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -12.7 90)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 12.7 270)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -12.7 90)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 12.7 270)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -12.7 90)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 12.7 270)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -12.7 90)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "MH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5415,285 +5730,6 @@
 				)
 			)
 		)
-		(symbol "rj45-connector:R-RJ45R08P-A004"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "R-RJ45R08P-A004"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "RRJ45R08PA004"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1905081002_Shenzhen-Cankemeng-R-RJ45R08P-A004_C385834.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Through Hole Ethernet Connectors/Modular Connectors (RJ45 RJ11) RoHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "12.85"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Ckmtw(Shenzhen Cankemeng)"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "R-RJ45R08P-A004"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "R-RJ45R08P-A004_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 72.39 153.67)
@@ -5732,7 +5768,7 @@
 		(uuid "33004a8a-5301-4df4-8c16-af9bba3e5887")
 	)
 	(junction
-		(at 161.29 143.51)
+		(at 165.1 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "347c853b-3556-4ee3-9473-7b7de153f64b")
@@ -5864,10 +5900,6 @@
 		(uuid "10ffa800-4bf8-42c1-b298-42c4dbba92e7")
 	)
 	(no_connect
-		(at 133.35 134.62)
-		(uuid "11d2ea40-a5f4-4979-ae7f-e55a5172bfa6")
-	)
-	(no_connect
 		(at 80.01 74.93)
 		(uuid "12df224e-6029-4203-a3cf-8e65476f9365")
 	)
@@ -5904,8 +5936,8 @@
 		(uuid "62379d96-7c45-448d-b323-6e07fc4e7c0c")
 	)
 	(no_connect
-		(at 153.67 132.08)
-		(uuid "7e5a0f37-7cae-4335-b583-3c1cffa5115c")
+		(at 132.08 137.16)
+		(uuid "7332bb8c-a3ae-4240-85ed-1d9ac7cf8db2")
 	)
 	(no_connect
 		(at 193.04 87.63)
@@ -5920,8 +5952,12 @@
 		(uuid "b3f28bee-270b-4c80-bc15-4142672bcb60")
 	)
 	(no_connect
-		(at 133.35 132.08)
-		(uuid "caaacbb7-a09e-4a66-ba59-594d3e47ed83")
+		(at 157.48 134.62)
+		(uuid "c86d99e4-3510-4b37-ad7b-8dfd882ba51d")
+	)
+	(no_connect
+		(at 132.08 134.62)
+		(uuid "c8c838b1-fed4-4b9d-bf8a-20058beaabc6")
 	)
 	(no_connect
 		(at 142.24 82.55)
@@ -5940,6 +5976,10 @@
 		(uuid "d16f3f13-96fa-4f0b-b0a8-e125a577bf48")
 	)
 	(no_connect
+		(at 157.48 137.16)
+		(uuid "d2873a03-e40e-4ab6-b452-ac0788ea8e6d")
+	)
+	(no_connect
 		(at 193.04 82.55)
 		(uuid "df7b2de4-5e0a-4145-b76f-1c1802d98ff2")
 	)
@@ -5950,10 +5990,6 @@
 	(no_connect
 		(at 48.26 60.96)
 		(uuid "ed6b6c98-a598-43ba-85a4-974900d55735")
-	)
-	(no_connect
-		(at 153.67 134.62)
-		(uuid "f2e45b8b-c274-4a32-9118-f2b706c52ff6")
 	)
 	(no_connect
 		(at 193.04 64.77)
@@ -6035,26 +6071,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 137.16) (xy 133.35 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bb033d2-a532-4158-afe6-5c45db9aab47")
-	)
-	(wire
-		(pts
-			(xy 154.94 134.62) (xy 154.94 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d0cb6d3-5be9-40d7-8bc4-4c525b12bd1a")
-	)
-	(wire
-		(pts
 			(xy 80.01 69.85) (xy 82.55 69.85)
 		)
 		(stroke
@@ -6115,13 +6131,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 134.62) (xy 167.64 134.62)
+			(xy 170.18 133.35) (xy 171.45 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c190fb2-72f9-40bc-8e9f-2329b71ebf6c")
+	)
+	(wire
+		(pts
+			(xy 130.81 139.7) (xy 132.08 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21978fec-814d-4d69-8dfd-07beb3fb8923")
 	)
 	(wire
 		(pts
@@ -6142,6 +6168,16 @@
 			(type default)
 		)
 		(uuid "2208b81d-572a-4b9b-a613-d51d2cbb7513")
+	)
+	(wire
+		(pts
+			(xy 130.81 137.16) (xy 130.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25390daf-a02a-453e-bda4-0c3cc1bac808")
 	)
 	(wire
 		(pts
@@ -6172,16 +6208,6 @@
 			(type default)
 		)
 		(uuid "28bb1e6d-0fee-448d-9a09-c59b51220075")
-	)
-	(wire
-		(pts
-			(xy 153.67 139.7) (xy 153.67 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29224245-8c43-4d62-9cfc-ad121f06d3ec")
 	)
 	(wire
 		(pts
@@ -6252,16 +6278,6 @@
 			(type default)
 		)
 		(uuid "348e62e8-9f92-4622-98ae-9a8becd84ab4")
-	)
-	(wire
-		(pts
-			(xy 154.94 134.62) (xy 158.75 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "377d093e-f8b8-470a-8d29-53c9253e4076")
 	)
 	(wire
 		(pts
@@ -6425,7 +6441,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 134.62) (xy 132.08 134.62)
+			(xy 127 137.16) (xy 130.81 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6495,7 +6511,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 146.05) (xy 119.38 146.05)
+			(xy 124.46 146.05) (xy 118.11 146.05)
 		)
 		(stroke
 			(width 0)
@@ -6525,6 +6541,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 133.35) (xy 162.56 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6552eb1b-049d-4923-859a-550abc705d3c")
+	)
+	(wire
+		(pts
 			(xy 48.26 50.8) (xy 49.53 50.8)
 		)
 		(stroke
@@ -6545,7 +6571,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 143.51) (xy 168.91 143.51)
+			(xy 165.1 142.24) (xy 172.72 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6705,16 +6731,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 134.62) (xy 132.08 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cfa3a49-8750-42af-a9cf-082b8b4936b8")
-	)
-	(wire
-		(pts
 			(xy 207.01 38.1) (xy 207.01 36.83)
 		)
 		(stroke
@@ -6865,7 +6881,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 139.7) (xy 128.27 139.7)
+			(xy 124.46 142.24) (xy 132.08 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6995,6 +7011,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 133.35) (xy 158.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0513280-4854-42f8-944d-fc68996693d8")
+	)
+	(wire
+		(pts
 			(xy 62.23 35.56) (xy 66.04 35.56)
 		)
 		(stroke
@@ -7005,17 +7031,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 137.16) (xy 153.67 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0ae6ded-ae01-40e9-8fb4-6a504d411380")
-	)
-	(wire
-		(pts
-			(xy 128.27 139.7) (xy 128.27 146.05)
+			(xy 124.46 142.24) (xy 124.46 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7102,6 +7118,16 @@
 			(type default)
 		)
 		(uuid "bedbd23b-984c-4716-8d30-893d8fc08b92")
+	)
+	(wire
+		(pts
+			(xy 158.75 139.7) (xy 157.48 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befec8e2-2715-4d3a-b07b-156899513376")
 	)
 	(wire
 		(pts
@@ -7285,7 +7311,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 143.51) (xy 161.29 143.51)
+			(xy 157.48 142.24) (xy 165.1 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7455,7 +7481,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 134.62) (xy 120.65 134.62)
+			(xy 116.84 137.16) (xy 119.38 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7690,7 +7716,7 @@
 		(uuid "323f0bb0-7dd3-464d-a585-f003c70a4779")
 	)
 	(label "+12V"
-		(at 128.27 142.24 0)
+		(at 124.46 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7888,7 +7914,7 @@
 		(uuid "6a97ab3e-9c8f-496d-8a19-6bda4b209321")
 	)
 	(label "GPIO15"
-		(at 120.65 134.62 180)
+		(at 119.38 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8009,7 +8035,7 @@
 		(uuid "9a72629e-eb38-4ebb-b088-bbbed31284ba")
 	)
 	(label "GPIO16"
-		(at 167.64 134.62 0)
+		(at 171.45 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8238,6 +8264,72 @@
 			(justify left bottom)
 		)
 		(uuid "fb9cafdb-70e5-49ed-b89a-199d0e947d0b")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03e1ff97-0c2a-4427-b1e1-28a73f33a689")
+		(property "Reference" "#PWR013"
+			(at 144.78 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.558 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e95610a-02d5-47ce-be4f-4793afd789be")
+		)
+		(instances
+			(project "spanet-pcb"
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x11_Pin")
@@ -8796,6 +8888,190 @@
 		)
 	)
 	(symbol
+		(lib_id "R-RJ45R08P-B000:R-RJ45R08P-B000")
+		(at 144.78 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "386d086c-dec2-4753-8371-743d6c60d462")
+		(property "Reference" "J4"
+			(at 147.7965 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-RJ45R08P-B000"
+			(at 147.7965 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RRJ45R08PB000"
+			(at 54.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Ckmtw-Shenzhen-Cankemeng-R-RJ45R08P-B000_C386756.pdf"
+			(at -45.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ethernet Connectors/Modular Connectors (RJ45 RJ11) Through Hole RoHS"
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.4"
+			(at -245.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Ckmtw(Shenzhen Cankemeng)"
+			(at -345.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "R-RJ45R08P-B000"
+			(at -445.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at -545.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at -645.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -745.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -845.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "JLC Part" "https://jlcpcb.com/partdetail/360863-R_RJ45R08PB000/C386756"
+			(at 144.78 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part#" "C386756"
+			(at 144.78 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "bbbcbbfd-2356-4629-bd07-5dad520eca88")
+		)
+		(pin "MH4"
+			(uuid "577f8d02-1ecb-437c-a166-c77e2b0c7ec9")
+		)
+		(pin "4"
+			(uuid "6ca9ac48-9551-4356-863c-72b5a1d8c0a8")
+		)
+		(pin "2"
+			(uuid "5c060e89-be00-4a68-8a0c-b373181c74e6")
+		)
+		(pin "3"
+			(uuid "18b47c03-cc6c-4485-a57c-e8917790e317")
+		)
+		(pin "1"
+			(uuid "73dc7c58-d29e-4d6f-b709-fa2ff74473c0")
+		)
+		(pin "7"
+			(uuid "12ee12c0-dfa7-43a1-b210-75c26b597647")
+		)
+		(pin "6"
+			(uuid "db252c12-3ff6-4de5-84e8-999631a70c8f")
+		)
+		(pin "8"
+			(uuid "b6cc1c94-84a4-4148-8ff2-520be0828d85")
+		)
+		(pin "MH3"
+			(uuid "76fa5ff5-85aa-440b-aa19-2aea5962dd07")
+		)
+		(instances
+			(project ""
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 229.87 74.93 90)
 		(unit 1)
@@ -9259,7 +9535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 143.51 0)
+		(at 172.72 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9267,7 +9543,7 @@
 		(dnp no)
 		(uuid "5988cca4-4fa4-4fb4-86bc-e72ef2312bdf")
 		(property "Reference" "#PWR015"
-			(at 168.91 149.86 0)
+			(at 172.72 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9276,7 +9552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.688 147.574 0)
+			(at 174.498 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9285,7 +9561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 143.51 0)
+			(at 172.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9294,7 +9570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 143.51 0)
+			(at 172.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,7 +9579,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 143.51 0)
+			(at 172.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10071,7 +10347,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 161.29 143.51 0)
+		(at 165.1 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10079,7 +10355,7 @@
 		(dnp no)
 		(uuid "7c602cfb-510b-4905-9f6a-36c5f67e9bb6")
 		(property "Reference" "#FLG02"
-			(at 161.29 141.605 0)
+			(at 165.1 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,7 +10364,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 164.338 139.7 0)
+			(at 168.148 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 143.51 0)
+			(at 165.1 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +10381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 143.51 0)
+			(at 165.1 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +10390,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 161.29 143.51 0)
+			(at 165.1 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10136,7 +10412,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 124.46 134.62 270)
+		(at 123.19 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10144,7 +10420,7 @@
 		(dnp no)
 		(uuid "80275c64-ac00-4ee4-a8df-162e47f5c470")
 		(property "Reference" "R9"
-			(at 123.19 137.16 90)
+			(at 121.92 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +10429,7 @@
 			)
 		)
 		(property "Value" "330Ω"
-			(at 121.666 132.08 90)
+			(at 120.396 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10438,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 124.46 132.842 90)
+			(at 123.19 135.382 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10447,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138"
-			(at 124.46 134.62 0)
+			(at 123.19 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +10456,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 134.62 0)
+			(at 123.19 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +10465,7 @@
 			)
 		)
 		(property "JLC Part#" "C23138"
-			(at 124.46 134.62 90)
+			(at 123.19 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10358,7 +10634,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 134.62 90)
+		(at 166.37 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10366,7 +10642,7 @@
 		(dnp no)
 		(uuid "8ad6b2cd-0837-4dd8-b069-cee0574b79e2")
 		(property "Reference" "R10"
-			(at 163.83 132.334 90)
+			(at 167.64 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10375,7 +10651,7 @@
 			)
 		)
 		(property "Value" "330Ω"
-			(at 165.1 136.906 90)
+			(at 168.91 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,7 +10660,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 162.56 136.398 90)
+			(at 166.37 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +10669,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138"
-			(at 162.56 134.62 0)
+			(at 166.37 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10678,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 134.62 0)
+			(at 166.37 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10411,7 +10687,7 @@
 			)
 		)
 		(property "JLC Part#" "C23138"
-			(at 162.56 134.62 90)
+			(at 166.37 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,7 +11135,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 119.38 146.05 0)
+		(at 118.11 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10867,7 +11143,7 @@
 		(dnp no)
 		(uuid "c3500332-0b58-4d18-b36f-77bdd25f3d93")
 		(property "Reference" "#FLG01"
-			(at 119.38 144.145 0)
+			(at 118.11 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10876,7 +11152,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 122.428 142.24 0)
+			(at 121.158 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10884,7 +11160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 146.05 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10893,7 +11169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 146.05 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10902,7 +11178,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 119.38 146.05 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,53 +11266,16 @@
 		)
 	)
 	(symbol
-		(lib_id "rj45-connector:R-RJ45R08P-A004")
-		(at 133.35 132.08 0)
+		(lib_id "power:GND")
+		(at 144.78 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e117a258-1216-457a-8e42-22a44535eac3")
-		(property "Reference" "J3"
-			(at 143.51 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R-RJ45R08P-A004"
-			(at 143.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RRJ45R08PA004"
-			(at 149.86 227 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1905081002_Shenzhen-Cankemeng-R-RJ45R08P-A004_C385834.pdf"
-			(at 149.86 327 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Through Hole Ethernet Connectors/Modular Connectors (RJ45 RJ11) RoHS"
-			(at 133.35 132.08 0)
+		(uuid "de3e2522-b424-4b34-b276-dacdd67e17cc")
+		(property "Reference" "#PWR014"
+			(at 144.78 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,38 +11283,17 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "12.85"
-			(at 149.86 527 0)
+		(property "Value" "GND"
+			(at 143.002 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Manufacturer_Name" "Ckmtw(Shenzhen Cankemeng)"
-			(at 149.86 627 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "R-RJ45R08P-A004"
-			(at 149.86 727 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "JLC Part#" "C385834"
-			(at 133.35 132.08 0)
+		(property "Footprint" ""
+			(at 144.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11083,8 +11301,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part Detail" "https://jlcpcb.com/partdetail/359709-R_RJ45R08PA004/C385834"
-			(at 133.35 132.08 0)
+		(property "Datasheet" ""
+			(at 144.78 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11092,34 +11310,22 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "37effac0-2b9c-46ff-b435-53c605ca9000")
-		)
-		(pin "7"
-			(uuid "bf439ca6-6ea5-4431-a4f6-066dba81e1eb")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "ca3070fd-3784-4d3d-9ac5-006847944996")
-		)
-		(pin "2"
-			(uuid "7a91da09-8046-4c4f-93cc-02ed7f727bd0")
-		)
-		(pin "3"
-			(uuid "ee64150a-a942-444b-9f24-3cb24b28511c")
-		)
-		(pin "8"
-			(uuid "fdd93e27-b174-451e-81db-243c74d9a100")
-		)
-		(pin "4"
-			(uuid "7657854e-94ed-411a-acb8-57047d30c60d")
-		)
-		(pin "5"
-			(uuid "0f6bb435-65e8-40eb-b2b5-f85d2d526433")
+			(uuid "daaf9bff-44fd-4256-945a-981fa4b8874f")
 		)
 		(instances
-			(project ""
+			(project "spanet-pcb"
 				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
-					(reference "J3")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
