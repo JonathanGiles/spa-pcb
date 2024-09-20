@@ -7688,6 +7688,17 @@
 		)
 		(uuid "189579a9-2bb2-4957-97a0-27259bb6c044")
 	)
+	(label "GPIO35"
+		(at 115.57 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20d413c4-91c0-45fc-9aec-c2ab2770ffc9")
+	)
 	(label "GPIO1"
 		(at 229.87 57.15 0)
 		(fields_autoplaced yes)
@@ -8106,6 +8117,17 @@
 		)
 		(uuid "a8096f02-970d-44b6-ade9-ba85998a59bb")
 	)
+	(label "GPIO36"
+		(at 172.72 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9ca3ca3-252c-41a0-b96e-e5f3f008492f")
+	)
 	(label "GPIO40"
 		(at 186.69 77.47 0)
 		(fields_autoplaced yes)
@@ -8150,17 +8172,6 @@
 		)
 		(uuid "b9b74270-3f0e-4559-bfed-222fb043932a")
 	)
-	(label "GPIO36"
-		(at 115.57 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba567692-2c1a-402e-a438-bf50a6dd67ad")
-	)
 	(label "GPIO5"
 		(at 143.51 62.23 0)
 		(fields_autoplaced yes)
@@ -8193,17 +8204,6 @@
 			(justify left bottom)
 		)
 		(uuid "c357d6ac-0563-4846-8ad4-eba1626c8039")
-	)
-	(label "GPIO35"
-		(at 172.72 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd018a85-3d9c-43aa-99a4-715f59cb48f0")
 	)
 	(label "I2C_SCL"
 		(at 142.24 92.71 0)
@@ -9340,70 +9340,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 255.27 25.4 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43194848-255b-4bb1-99d4-8356a8a1ffc6")
-		(property "Reference" "H3"
-			(at 257.81 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 257.81 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 255.27 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 255.27 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "spanet-pcb"
-				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 137.16 64.77 0)
 		(unit 1)
@@ -10172,6 +10108,70 @@
 			(project "DesignESP32PCB"
 				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 255.27 31.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aea4904-7bb8-49e7-99da-71ddbd777d2d")
+		(property "Reference" "H4"
+			(at 257.81 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 257.81 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 255.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 255.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "spanet-pcb"
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -11127,6 +11127,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 219.71 31.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6d984a7-f68b-43b2-bc07-4403e12a169e")
+		(property "Reference" "H2"
+			(at 222.25 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 222.25 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 219.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 219.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "spanet-pcb"
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 196.85 46.99 0)
 		(unit 1)
@@ -11187,70 +11251,6 @@
 			(project "DesignESP32PCB"
 				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 219.71 25.4 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc1332e0-0fe6-440d-b800-7c0daa5a1f18")
-		(property "Reference" "H1"
-			(at 222.25 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 222.25 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 219.71 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
-					(reference "H1")
 					(unit 1)
 				)
 			)

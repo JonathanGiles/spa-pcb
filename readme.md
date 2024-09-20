@@ -56,3 +56,7 @@ This board was worked on following receipt of the rev 1.0 boards, and so it fixe
 ## Revision 1.3
 
 Replaces the RJ-45 port with a metal-cased shielded RJ-45 port. This is a much more robust port, and should be more reliable in the long term. It is also cheaper (at least in the quantities I am buying) than the previous RJ-45 port.
+
+## Revision 1.4
+
+Changes the board layout to have the RJ-45 port on the bottom of the board, and the USB-C port on the right. Better layout in terms of cable management when put inside a case.
