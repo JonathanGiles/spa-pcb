@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.7,
+          "width": 0.45
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -180,7 +180,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -478,7 +479,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "+12V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(68, 255, 0)",
         "schematic_color": "rgb(0, 255, 18)",
         "track_width": 0.1524,
         "via_diameter": 0.604799,
@@ -540,7 +541,9 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "/+12V": "rgb(45, 255, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
