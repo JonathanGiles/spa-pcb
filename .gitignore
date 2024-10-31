@@ -29,3 +29,4 @@ fp-info-cache
 *.xml
 *.csv
 case/output/*
+#auto_saved_files#

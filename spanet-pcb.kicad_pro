@@ -542,6 +542,7 @@
       "version": 3
     },
     "net_colors": {
+      "+3.3V": "rgb(22, 0, 255)",
       "/+12V": "rgb(45, 255, 0)"
     },
     "netclass_assignments": null,
