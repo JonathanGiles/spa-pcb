@@ -464,7 +464,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
+        "track_width": 0.25,
         "via_diameter": 0.604799,
         "via_drill": 0.299999,
         "wire_width": 6
@@ -481,7 +481,7 @@
         "name": "+12V",
         "pcb_color": "rgb(68, 255, 0)",
         "schematic_color": "rgb(0, 255, 18)",
-        "track_width": 0.1524,
+        "track_width": 0.4,
         "via_diameter": 0.604799,
         "via_drill": 0.299999,
         "wire_width": 6
@@ -498,7 +498,7 @@
         "name": "+3.3V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 7)",
-        "track_width": 0.1524,
+        "track_width": 0.4,
         "via_diameter": 0.604799,
         "via_drill": 0.299999,
         "wire_width": 6
@@ -515,7 +515,7 @@
         "name": "+5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(18, 6, 255)",
-        "track_width": 0.1524,
+        "track_width": 0.4,
         "via_diameter": 0.604799,
         "via_drill": 0.299999,
         "wire_width": 6
@@ -532,7 +532,7 @@
         "name": "Signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 9, 237)",
-        "track_width": 0.1524,
+        "track_width": 0.25,
         "via_diameter": 0.604799,
         "via_drill": 0.299999,
         "wire_width": 6
@@ -593,7 +593,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "case v2/spacontrol-pcb.step",
       "svg": "",
       "vrml": ""
     },

@@ -75,4 +75,8 @@ Improved placement of ESP32 decoupling capacitors to be before the ESP32, and in
 
 ## Revision 1.8
 
-Added capacitor to the GPIO0 / BOOT button trace, to ensure the button works effectively, and the PCB boots correctly.
+Thicker traces all over PCB.
+
+## Revision 2.0
+
+Complete redesign of board - it is now bigger, but it has four M3 mounting holes and two RJ-45 connectors to support 'loop' mode.

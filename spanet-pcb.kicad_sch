@@ -6022,14 +6022,6 @@
 		(uuid "c5a4ba9b-ec32-48c4-8d78-fb0976ce99e7")
 	)
 	(no_connect
-		(at 242.57 133.35)
-		(uuid "c86d99e4-3510-4b37-ad7b-8dfd882ba51d")
-	)
-	(no_connect
-		(at 217.17 133.35)
-		(uuid "c8c838b1-fed4-4b9d-bf8a-20058beaabc6")
-	)
-	(no_connect
 		(at 193.04 54.61)
 		(uuid "cb728175-905f-407f-9c02-c0dac4ac056a")
 	)
@@ -6215,7 +6207,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 146.05) (xy 257.81 146.05)
+			(xy 259.08 144.78) (xy 257.81 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6523,6 +6515,16 @@
 		)
 		(uuid "50fbb3c9-8665-4513-9e1f-3fdb7d1fd8a8")
 	)
+	(polyline
+		(pts
+			(xy 132.08 154.94) (xy 191.77 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51cee135-d7e5-45ae-84c1-a8d6be093da9")
+	)
 	(wire
 		(pts
 			(xy 182.88 49.53) (xy 191.77 49.53)
@@ -6675,7 +6677,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 146.05) (xy 250.19 146.05)
+			(xy 245.11 144.78) (xy 250.19 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7225,7 +7227,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 146.05) (xy 245.11 138.43)
+			(xy 245.11 144.78) (xy 245.11 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7773,6 +7775,16 @@
 		)
 		(uuid "23e7da0e-307b-4d2b-b31b-e8148efeb317")
 	)
+	(text "RJ-45 Connector (Loop)"
+		(exclude_from_sim yes)
+		(at 241.808 40.132 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "350d267c-fc67-4118-bf5d-9e1cdf56af16")
+	)
 	(text "RJ-45 Connector"
 		(exclude_from_sim yes)
 		(at 210.566 112.776 0)
@@ -7795,7 +7807,7 @@
 	)
 	(text "Expansion Pins"
 		(exclude_from_sim yes)
-		(at 233.68 40.386 0)
+		(at 149.86 161.036 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7893,7 +7905,7 @@
 		(uuid "108e349d-8285-4a08-a000-eac9e3d85489")
 	)
 	(label "GPIO5"
-		(at 228.6 60.96 0)
+		(at 144.78 181.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7904,7 +7916,7 @@
 		(uuid "15211e80-12f0-478e-9081-af06241baad0")
 	)
 	(label "GPIO2"
-		(at 228.6 53.34 0)
+		(at 144.78 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7948,7 +7960,7 @@
 		(uuid "28dc8d23-39d4-4f5e-8837-1b64e209c932")
 	)
 	(label "GPIO4"
-		(at 228.6 58.42 0)
+		(at 144.78 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8091,7 +8103,7 @@
 		(uuid "59e987e2-4c5f-4e28-9f51-3e2f7b8194de")
 	)
 	(label "+3.3V"
-		(at 228.6 48.26 0)
+		(at 144.78 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8256,7 +8268,7 @@
 		(uuid "915d350f-0e5f-42b2-8e08-2fb8cf3e4ec8")
 	)
 	(label "GPIO9"
-		(at 228.6 71.12 0)
+		(at 144.78 191.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8311,7 +8323,7 @@
 		(uuid "9a01f0ad-b035-4569-80ac-2bd81ee2d5f2")
 	)
 	(label "GPIO7"
-		(at 228.6 66.04 0)
+		(at 144.78 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8322,7 +8334,7 @@
 		(uuid "9edad6d2-7268-49b5-94b7-26a9799f2881")
 	)
 	(label "GPIO16"
-		(at 259.08 146.05 0)
+		(at 259.08 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8366,7 +8378,7 @@
 		(uuid "a657ae46-5696-4c3c-8fe6-031d9f8ef55a")
 	)
 	(label "GPIO8"
-		(at 228.6 68.58 0)
+		(at 144.78 189.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8465,7 +8477,7 @@
 		(uuid "d55f757b-08d7-4183-af03-4978b1af9f78")
 	)
 	(label "GPIO3"
-		(at 228.6 55.88 0)
+		(at 144.78 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8520,7 +8532,7 @@
 		(uuid "f68d1060-afc6-432a-935f-ffb5b5d4d4fb")
 	)
 	(label "GPIO1"
-		(at 228.6 50.8 0)
+		(at 144.78 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8531,7 +8543,7 @@
 		(uuid "fa1ed9ff-a90a-4951-ab97-32eff026f612")
 	)
 	(label "GPIO6"
-		(at 228.6 63.5 0)
+		(at 144.78 184.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8540,6 +8552,314 @@
 			(justify left bottom)
 		)
 		(uuid "fb2925da-5466-4ee5-9566-233503123b1e")
+	)
+	(global_label "RJ45-3"
+		(shape bidirectional)
+		(at 257.81 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e1de73e-2f7f-4772-9007-b1b7b74e2cd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.345 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-8"
+		(shape bidirectional)
+		(at 212.09 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e3e081d-cb69-4913-9ae3-4b0326481f2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.555 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-5"
+		(shape bidirectional)
+		(at 257.81 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "359ffaef-453b-4c0f-af9c-34c6ded5bfbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.345 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-3"
+		(shape bidirectional)
+		(at 242.57 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "646a7d04-3025-40fd-b41c-3632b714c68b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.105 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-5"
+		(shape bidirectional)
+		(at 245.11 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e11dda4-decd-4c84-8e80-bd1c4475247e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.645 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-6"
+		(shape bidirectional)
+		(at 209.55 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f08aeeb-e3e4-401c-99a7-6a541d466407")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.015 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-6"
+		(shape bidirectional)
+		(at 232.41 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7395e767-b370-4c31-98dd-f145681af23b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.875 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-4"
+		(shape bidirectional)
+		(at 232.41 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "870640af-8afe-4d87-8911-54360beca651")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.875 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-2"
+		(shape bidirectional)
+		(at 217.17 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a1ebb0f-38fc-4bf5-95a2-ca1c5ff4b284")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.635 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-8"
+		(shape bidirectional)
+		(at 232.41 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a564d633-2b5a-4738-9d81-c5e88a487da5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.875 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-2"
+		(shape bidirectional)
+		(at 232.41 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acde6c50-205f-4d21-92a6-3bfd1cca67d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.875 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-1"
+		(shape bidirectional)
+		(at 242.57 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1d19eeb-983f-4540-b7bd-88f7b414bd06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.105 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-1"
+		(shape bidirectional)
+		(at 257.81 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce36e062-3219-433e-b8d9-541f014bf28f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.345 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RJ45-4"
+		(shape bidirectional)
+		(at 217.17 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5b8549d-3831-41a8-a38d-97f776a1c346")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.635 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8609,7 +8929,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x11_Pin")
-		(at 223.52 60.96 0)
+		(at 139.7 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8617,7 +8937,7 @@
 		(dnp no)
 		(uuid "0b3f75fe-49e1-4424-a6c1-03a48f225d66")
 		(property "Reference" "J1"
-			(at 219.964 45.974 0)
+			(at 136.144 166.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +8945,7 @@
 			)
 		)
 		(property "Value" "Conn_01x11_Pin"
-			(at 224.155 45.72 0)
+			(at 140.335 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +8954,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical"
-			(at 223.52 60.96 0)
+			(at 139.7 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,7 +8963,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/chxunda-XDZ254_1_11_Z_2_5G1/C18905852"
-			(at 223.52 60.96 0)
+			(at 139.7 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8652,7 +8972,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x11, script generated"
-			(at 223.52 60.96 0)
+			(at 139.7 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8661,7 +8981,7 @@
 			)
 		)
 		(property "JLC Part#" "C18905852"
-			(at 223.52 60.96 0)
+			(at 139.7 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,6 +9184,70 @@
 			(project "spanet-pcb"
 				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 219.71 24.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35c4cf33-0a10-4b13-af6c-07cdc8746f91")
+		(property "Reference" "H1"
+			(at 222.25 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 222.25 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 219.71 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 219.71 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "spanet-pcb"
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -9121,15 +9505,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 73.66 90)
+		(at 257.81 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3b8a619b-4cc9-4ca4-89f7-562549fa2111")
-		(property "Reference" "#PWR09"
-			(at 234.95 73.66 0)
+		(uuid "39a0f2bc-29d1-4564-a9ef-1d7a6e322665")
+		(property "Reference" "#PWR021"
+			(at 257.81 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9138,7 +9522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.394 73.406 90)
+			(at 259.588 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9147,7 +9531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 73.66 0)
+			(at 257.81 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9156,7 +9540,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 73.66 0)
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a1c4149-cb65-4e46-ac97-4ad45d735a6f")
+		)
+		(instances
+			(project "spanet-pcb"
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 194.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b8a619b-4cc9-4ca4-89f7-562549fa2111")
+		(property "Reference" "#PWR09"
+			(at 151.13 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.574 194.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9165,7 +9615,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 73.66 0)
+			(at 144.78 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9334,6 +9784,70 @@
 			(project "spanet-pcb"
 				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 242.57 31.75 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "473789dc-c18f-4a54-8e6d-eeff11638106")
+		(property "Reference" "H4"
+			(at 245.11 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 245.11 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "spanet-pcb"
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -10097,70 +10611,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 255.27 31.75 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6aea4904-7bb8-49e7-99da-71ddbd777d2d")
-		(property "Reference" "H4"
-			(at 257.81 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 257.81 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 255.27 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 255.27 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "spanet-pcb"
-				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 138.43 137.16 0)
 		(unit 1)
@@ -10234,6 +10684,72 @@
 			(project "spanet-pcb"
 				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fdeb059-b0ca-468c-86d7-f3c9e77182a6")
+		(property "Reference" "#PWR08"
+			(at 245.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.332 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98680ce2-afb0-41a0-a9b1-85767c9f60e8")
+		)
+		(instances
+			(project "spanet-pcb"
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10317,6 +10833,70 @@
 			(project "DesignESP32PCB"
 				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
 					(reference "RESET1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 242.57 24.13 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74c0b79c-0b0c-4383-9eb0-f964fd3e07b9")
+		(property "Reference" "H3"
+			(at 245.11 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 245.11 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 242.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 242.57 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "spanet-pcb"
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -10534,7 +11114,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 254 146.05 90)
+		(at 254 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10542,7 +11122,7 @@
 		(dnp no)
 		(uuid "8ad6b2cd-0837-4dd8-b069-cee0574b79e2")
 		(property "Reference" "R10"
-			(at 255.27 143.764 90)
+			(at 255.27 142.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,7 +11131,7 @@
 			)
 		)
 		(property "Value" "330Ω"
-			(at 256.794 146.05 90)
+			(at 256.794 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +11140,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 254 147.828 90)
+			(at 254 146.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +11149,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138"
-			(at 254 146.05 0)
+			(at 254 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10578,7 +11158,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 254 146.05 0)
+			(at 254 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10587,7 +11167,7 @@
 			)
 		)
 		(property "JLC Part#" "C23138"
-			(at 254 146.05 90)
+			(at 254 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10901,6 +11481,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 245.11 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1c3460f-74e2-4cff-937a-5ad70ba10ab8")
+		(property "Reference" "#PWR011"
+			(at 245.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.888 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bff11d95-84b9-493b-987e-1ecd2cd71814")
+		)
+		(instances
+			(project "spanet-pcb"
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 219.71 31.75 0)
 		(unit 1)
@@ -10928,7 +11574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 219.71 31.75 0)
 			(effects
 				(font
@@ -11735,6 +12381,190 @@
 			(project ""
 				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "R-RJ45R08P-B000:R-RJ45R08P-B000")
+		(at 245.11 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cce578ca-b678-4484-85e5-8375ea747c38")
+		(property "Reference" "J2"
+			(at 248.1265 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R-RJ45R08P-B000"
+			(at 248.1265 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RRJ45R08PB000"
+			(at 155.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Ckmtw-Shenzhen-Cankemeng-R-RJ45R08P-B000_C386756.pdf"
+			(at 55.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ethernet Connectors/Modular Connectors (RJ45 RJ11) Through Hole RoHS"
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13.4"
+			(at -144.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Ckmtw(Shenzhen Cankemeng)"
+			(at -244.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "R-RJ45R08P-B000"
+			(at -344.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at -444.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at -544.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -644.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -744.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "JLC Part" "https://jlcpcb.com/partdetail/360863-R_RJ45R08PB000/C386756"
+			(at 245.11 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part#" "C386756"
+			(at 245.11 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "15830214-309d-434f-9733-2a4a17d8845c")
+		)
+		(pin "MH4"
+			(uuid "427ada1e-940b-4fdf-b532-eeec0db19ac6")
+		)
+		(pin "4"
+			(uuid "937d9638-fd34-4205-9fbb-d61f2b6b71bc")
+		)
+		(pin "2"
+			(uuid "5f827dc7-3a76-4422-8386-c275e6de4a8d")
+		)
+		(pin "3"
+			(uuid "e524f615-bb5a-42da-b85e-573c097e9cd1")
+		)
+		(pin "1"
+			(uuid "7a5a6740-bea6-4208-92f2-d59b7c084051")
+		)
+		(pin "7"
+			(uuid "8afbfe96-9b85-4ef1-a762-422409a38ba1")
+		)
+		(pin "6"
+			(uuid "69f21912-419f-47d3-9397-a0f7eee949f7")
+		)
+		(pin "8"
+			(uuid "f1297217-30be-418e-b7a7-ea09acb11e86")
+		)
+		(pin "MH3"
+			(uuid "4fcb1c7b-359c-47d0-b520-dbedac721d12")
+		)
+		(instances
+			(project "spanet-pcb"
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865"
+					(reference "J2")
 					(unit 1)
 				)
 			)
