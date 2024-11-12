@@ -1,0 +1,9 @@
+Manufacturer=Ckmtw(Shenzhen Cankemeng)
+PartNumber=R-RJ45R08P-B000
+PartCategory=Connector
+PackageCategory=Other
+PinCount=10
+Version=1.3
+Released=2023-11-27 06:19:44
+Downloaded=2024-09-16 21:32:12
+3D=Y

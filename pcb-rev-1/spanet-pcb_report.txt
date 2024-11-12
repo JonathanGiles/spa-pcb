@@ -1,0 +1,49 @@
+PCB statistics report
+=====================
+- Date: Tuesday, November 12, 2024 at 10:10:16 PM
+- Project: spanet-pcb
+- Board name: spanet-pcb
+
+Board
+-----
+- Width: 27.0900 mm
+- Height: 45.4500 mm
+- Area: 1223.9965 mm²
+
+Pads
+----
+- Through hole: 25
+- SMD: 163
+- Connector: 0
+- NPTH: 6
+
+Vias
+----
+- Through vias: 87
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          2 |         0 |     2 |
+|SMD:          |         31 |         0 |    31 |
+|Unspecified:  |          2 |         0 |     2 |
+|Total:        |         35 |         0 |    35 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad |            Start Layer |    Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|------------------------|---------------|
+|    87 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via | L1 (signal + GND Fill) | L2 (GND Fill) |
+|    11 | Round | 1.0000 mm | 1.0000 mm |    PTH |     Pad | L1 (signal + GND Fill) | L2 (GND Fill) |
+|     8 | Round | 0.6600 mm | 0.6600 mm |    PTH |     Pad | L1 (signal + GND Fill) | L2 (GND Fill) |
+|     2 | Round | 3.2500 mm | 3.2500 mm |   NPTH |     Pad | L1 (signal + GND Fill) | L2 (GND Fill) |
+|     2 | Round | 1.8000 mm | 1.8000 mm |    PTH |     Pad | L1 (signal + GND Fill) | L2 (GND Fill) |
+|     2 | Round | 0.6500 mm | 0.6500 mm |   NPTH |     Pad | L1 (signal + GND Fill) | L2 (GND Fill) |
+|     2 |  Slot | 0.6000 mm | 1.7000 mm |    PTH |     Pad | L1 (signal + GND Fill) | L2 (GND Fill) |
+|     2 |  Slot | 0.6000 mm | 1.4000 mm |    PTH |     Pad | L1 (signal + GND Fill) | L2 (GND Fill) |
+|     2 | Round | 2.2000 mm | 2.2000 mm |   NPTH |     Pad | L1 (signal + GND Fill) | L2 (GND Fill) |

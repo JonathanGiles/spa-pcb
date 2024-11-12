@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "esp32-s3-mini")(type "KiCad")(uri "${KIPRJMOD}/kicad/ESP32_S3_MINI_1_N8/ESP32-S3-MINI-1-N8.kicad_sym")(options "")(descr ""))
+  (lib (name "R-RJ45R08P-A004")(type "KiCad")(uri "${KIPRJMOD}/kicad/RJ-45/R-RJ45R08P-A004/R-RJ45R08P-A004.kicad_sym")(options "")(descr ""))
+  (lib (name "R-RJ45R08P-B000")(type "KiCad")(uri "${KIPRJMOD}/kicad/RJ-45/R-RJ45R08P-B000/R-RJ45R08P-B000.kicad_sym")(options "")(descr ""))
+  (lib (name "WS2812B")(type "KiCad")(uri "${KIPRJMOD}/kicad/WS2812B/WS2812B.kicad_sym")(options "")(descr ""))
+)
