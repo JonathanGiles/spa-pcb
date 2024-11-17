@@ -4,4 +4,5 @@
   (lib (name "R-RJ45R08P-A004")(type "KiCad")(uri "${KIPRJMOD}/kicad/RJ-45/R-RJ45R08P-A004/R-RJ45R08P-A004.kicad_sym")(options "")(descr ""))
   (lib (name "R-RJ45R08P-B000")(type "KiCad")(uri "${KIPRJMOD}/kicad/RJ-45/R-RJ45R08P-B000/R-RJ45R08P-B000.kicad_sym")(options "")(descr ""))
   (lib (name "WS2812B")(type "KiCad")(uri "${KIPRJMOD}/kicad/WS2812B/WS2812B.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-320B")(type "KiCad")(uri "${KIPRJMOD}/kicad/PJ-320B/PJ-320B.kicad_sym")(options "")(descr ""))
 )

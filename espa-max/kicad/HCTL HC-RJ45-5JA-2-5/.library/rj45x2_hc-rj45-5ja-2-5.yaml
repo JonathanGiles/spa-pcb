@@ -1,0 +1,77 @@
+name: HC-RJ45-5JA-2-5
+description: connector, RJ45, dual port, with LEDs
+datasheet: https://datasheet.lcsc.com/lcsc/2205201745_HCTL-HC-RJ45-5JA-2-5_C3000180.pdf
+distributor: LCSC C3000180
+
+pinout:
+  PORT_RIGHT:
+    LED_RL:
+      LEDA_RL: 12
+      LEDC_RL: 11
+    LED_RR:
+      LEDA_RR: 10
+      LEDC_RR: 9
+    8P8C_R: 1-8
+  PORT_LEFT:
+    LED_LL:
+      LEDA_LL: 24
+      LEDC_LL: 23
+    LED_LR:
+      LEDA_LR: 22
+      LEDC_LR: 21
+    8P8C_L: 13-20
+
+properties:
+  passive: PORT_RIGHT, PORT_LEFT
+
+schematic:
+  symbol: connector
+  left: LED_LL, LED_LR, LED_RL, LED_RR
+  right: 8P8C_L, 8P8C_R
+
+parts:
+  left: PORT_LEFT
+  right: PORT_RIGHT
+
+housing:
+  pattern: custom
+  bodyWidth: 32.25
+  bodyLength: 15.6
+  height: 13.3
+  model: # modified from https://grabcad.com/library/rjhse-5381-02-1
+    file: "library/connector/rj45x2_hc-rj45-5ja-2-5.step"
+    rotation: 0,0,0
+    position: -5.3,-2.3,-0.3
+
+  # right 8P8C pins
+  holeDiameter: 1.0
+  padDiameter: 1.4
+  verticalPitch: 1.02
+  horizontalPitch: 1.78
+  # pin 1 on 4.31+3*2.04+1.02-1.02*n=11.45 , 15.6/2-5.4-2.54=-0.14 or 15.6/2-5.4-4.32=-1.92
+  padPosition: 11.45, -0.14, 10.43, -1.92, 9.41, -0.14, 8.39, -1.92, 7.37, -0.14, 6.35, -1.92, 5.33, -0.14, 4.31, -1.92
+
+  # right LEDs
+  holeDiameter1: 1.2
+  padDiameter1: 1.6
+  # 2.04/2+13.72=14.74 , 15.6/2-5.4-9.13=-6.73, LED pitch (13.72-9.14)/2=2.29
+  padPosition1: 14.74, -6.73, 12.45, -6.73, 3.31, -6.73, 1.02, -6.73
+
+  # left 8P8C pins
+  holeDiameter2: 1.0
+  padDiameter2: 1.4
+  verticalPitch2: 1.02
+  horizontalPitch2: 1.78
+  # pin 13 on -4.31-1.02*n=11.45 , 15.6/2-5.4-2.54=-0.14 or 15.6/2-5.4-4.32=-1.92
+  padPosition2: -4.31, -0.14, -5.33, -1.92, -6.35, -0.14, -7.37, -1.92, -8.39, -0.14, -9.41, -1.92, -10.43, -0.14, -11.45, -1.92
+
+  # left LEDs
+  holeDiameter3: 1.2
+  padDiameter3: 1.6
+  # 2.04/2+13.72=14.74 , 15.6/2-5.4-9.13=-6.73, LED pitch (13.72-9.14)/2=2.29
+  padPosition3: -1.02, -6.73, -3.31, -6.73, -12.45, -6.73, -14.74, -6.73
+
+  # mounting holes, large bottom
+  holeDiameter4: 3.25
+  # Y 15.6/2-5.4=2.40
+  padPosition4: 14.25, 2.4, -14.25, 2.4

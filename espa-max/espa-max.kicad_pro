@@ -447,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "spanet-pcb.kicad_pro",
+    "filename": "espa-max.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -798,6 +798,10 @@
     [
       "6ab99d2f-b2da-4c6e-b437-3c51d85d9865",
       "Root"
+    ],
+    [
+      "38439c0a-cf83-4abd-ae24-cce86663b1cb",
+      "energy-monitoring"
     ]
   ],
   "text_variables": {}
