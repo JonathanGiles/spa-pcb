@@ -1,4 +1,4 @@
-jlcpcb/*
+*/jlcpcb/*
 .DS_Store
 
 # Temporary files
@@ -30,3 +30,4 @@ fp-info-cache
 *.csv
 case/output/*
 #auto_saved_files#
+
