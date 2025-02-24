@@ -5,6 +5,250 @@
 	(uuid "e164b6da-3d4d-4717-92d5-b011fa8e51b6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "3.5mm-connector:KH-PJ-328-SMT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KH-PJ-328-SMT"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:AUDIO-SMD_KH-PJ-328-SMT"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5123129"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KH-PJ-328-SMT_0_1"
+				(rectangle
+					(start -7.37 4.06)
+					(end -5.84 -4.06)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.25 -4.06)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.25 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy -6.6 5.08) (xy -6.6 4.06)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy -1.27 -5.08) (xy -1.78 -3.81) (xy -2.29 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0 -2.54) (xy 0 -5.08) (xy -0.25 -4.06)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0) (xy 0 2.54) (xy -0.25 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -3.81 2.54) (xy -4.57 1.52) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -141,195 +385,33 @@
 				)
 			)
 		)
-		(symbol "Device:D"
+		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 0.762 0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -346,7 +428,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Description" "Resistor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -355,7 +437,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_keywords" "R resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -373,12 +455,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_Small_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -386,10 +468,10 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 2.54 270)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -406,8 +488,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 0 -2.54 90)
+					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -419,382 +501,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PJ-320B:PJ-320B"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PJ-320B"
-				(at -5.08 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "PJ-320B:BOOMELE_PJ-320B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Luoyang Dishang electronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "Package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/PJ-320B/Luoyang+Dishang+electronics/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJ-320B/Luoyang+Dishang+electronics/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "PJ-320B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            Headphone jack\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Luoyang Dishang electronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PJ-320B_0_0"
-				(polyline
-					(pts
-						(xy -5.715 -3.81) (xy -5.715 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 0.635) (xy -5.08 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0.635) (xy -4.445 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -5.08 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 -3.81) (xy -5.715 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 0.635) (xy -4.445 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -0.635) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.905) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1019,42 +725,34 @@
 		)
 	)
 	(junction
-		(at 54.61 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a692db44-c381-4bf2-aa45-520f868c93dd")
-	)
-	(junction
-		(at 54.61 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6b34a43-7b20-4daa-9bd6-abf7070efbb0")
-	)
-	(junction
-		(at 66.04 48.26)
+		(at 63.5 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab81a7ac-c4b0-4591-a307-9de9d2e5b685")
 	)
 	(junction
-		(at 57.15 48.26)
+		(at 54.61 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b747ad41-9d01-41b7-88eb-8e8c4594b170")
 	)
 	(junction
-		(at 66.04 58.42)
+		(at 63.5 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd59ef55-3da2-4900-8c87-9bc93c8a1bfe")
 	)
 	(no_connect
-		(at 49.53 39.37)
-		(uuid "f032b1e9-6b09-4f60-9812-0b0c5fdf4601")
+		(at 38.1 39.37)
+		(uuid "3212f818-3f56-4571-bef9-25011ac0487d")
+	)
+	(no_connect
+		(at 38.1 36.83)
+		(uuid "66f962db-c1f3-4505-8b31-b92db9e1638e")
 	)
 	(wire
 		(pts
-			(xy 49.53 48.26) (xy 54.61 48.26)
+			(xy 46.99 46.99) (xy 54.61 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1064,7 +762,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 57.15) (xy 66.04 58.42)
+			(xy 63.5 55.88) (xy 63.5 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1074,17 +772,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 44.45) (xy 54.61 48.26)
+			(xy 38.1 41.91) (xy 41.91 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f4b1be4-6f6a-459f-a814-8336af028e5d")
+		(uuid "166e925c-e8af-4c28-9555-c5a207b5cc0d")
 	)
 	(wire
 		(pts
-			(xy 66.04 48.26) (xy 57.15 48.26)
+			(xy 63.5 46.99) (xy 54.61 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1094,47 +792,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 49.53) (xy 66.04 48.26)
+			(xy 67.31 60.96) (xy 67.31 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "327dcdfe-bef4-4364-a9c5-423c7ffe93c2")
+		(uuid "500dc7ad-9e47-4a8c-b209-2ec9090aab74")
 	)
 	(wire
 		(pts
-			(xy 66.04 58.42) (xy 69.85 58.42)
+			(xy 67.31 57.15) (xy 63.5 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39b2826e-9d4f-4e38-b075-e2d64a2eb7a4")
+		(uuid "98294c5c-88c6-4914-a349-a2bb6a1afa61")
 	)
 	(wire
 		(pts
-			(xy 49.53 36.83) (xy 54.61 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a19bb24-08fa-4c4c-a97a-00087b55a671")
-	)
-	(wire
-		(pts
-			(xy 57.15 48.26) (xy 54.61 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ec69faa-4485-4864-b2a2-9ff39092a69f")
-	)
-	(wire
-		(pts
-			(xy 57.15 57.15) (xy 57.15 58.42)
+			(xy 54.61 55.88) (xy 54.61 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1144,17 +822,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 27.94) (xy 54.61 36.83)
+			(xy 38.1 44.45) (xy 46.99 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a717959c-c30d-41ea-bd4b-8413725fdec2")
+		(uuid "a700ea2c-7f71-4be6-b7f4-2b41e2ab5e54")
 	)
 	(wire
 		(pts
-			(xy 57.15 49.53) (xy 57.15 48.26)
+			(xy 54.61 48.26) (xy 54.61 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1164,7 +842,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 46.99) (xy 66.04 48.26)
+			(xy 63.5 46.99) (xy 63.5 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0d3fd6-590b-4af2-a089-1916aa4b72ea")
+	)
+	(wire
+		(pts
+			(xy 38.1 34.29) (xy 41.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1117ef8-41b7-4bd2-97f9-6d6eaf553525")
+	)
+	(wire
+		(pts
+			(xy 63.5 43.18) (xy 63.5 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1174,17 +872,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 27.94) (xy 54.61 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8900672-23ec-4663-afbc-f272f79ded8d")
-	)
-	(wire
-		(pts
-			(xy 57.15 58.42) (xy 66.04 58.42)
+			(xy 54.61 57.15) (xy 63.5 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1194,17 +882,49 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 48.26) (xy 49.53 41.91)
+			(xy 46.99 44.45) (xy 46.99 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc59c1ee-94b9-4b5c-afda-4d6dcbc0eec0")
+		(uuid "f5798835-9aac-4b05-af45-9467f101907b")
+	)
+	(text "CT Clamp Connector"
+		(exclude_from_sim yes)
+		(at 37.846 17.526 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "cef90e72-1b19-4c01-8e0a-4636391e0b88")
+	)
+	(global_label "GPIO40"
+		(shape output)
+		(at 41.91 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1169d87a-1894-48bd-a47a-465038b69d73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.7895 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GPIO10"
 		(shape output)
-		(at 60.96 27.94 0)
+		(at 41.91 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1214,7 +934,7 @@
 		)
 		(uuid "43c5c670-7fe7-46aa-9057-e2c0a20ea48a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.8395 27.94 0)
+			(at 51.7895 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,43 +945,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PJ-320B:PJ-320B")
-		(at 41.91 39.37 0)
+		(lib_id "3.5mm-connector:KH-PJ-328-SMT")
+		(at 33.02 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "100e6519-6549-4fec-a8cc-f5b1f0ea3610")
-		(property "Reference" "J5"
-			(at 41.5925 31.75 0)
+		(uuid "07b11476-473b-415a-b03a-897e4d29e499")
+		(property "Reference" "U4"
+			(at 30.605 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AudioPlug2"
-			(at 41.5925 34.29 0)
+		(property "Value" "KH-PJ-328-SMT"
+			(at 30.605 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PJ-320B:BOOMELE_PJ-320B"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 39.37 0)
+		(property "Footprint" "3.5mm-connector:AUDIO-SMD_KH-PJ-328-SMT"
+			(at 33.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,8 +979,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 41.91 39.37 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Shenzhen_KinghelmElec-KH_PJ_328SMT/C5123129"
+			(at 33.02 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,8 +988,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part#" "C18594"
-			(at 41.91 39.37 0)
+		(property "Description" ""
+			(at 33.02 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1287,173 +997,147 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Luoyang Dishang electronics"
-			(at 41.91 39.37 0)
+		(property "LCSC Part" "C5123129"
+			(at 33.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "5mm"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "6"
+			(uuid "2c0ff558-e5a7-44d3-8419-dee3691f692a")
 		)
-		(property "Package" "Package"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "4db22f71-7f4a-42d8-98dd-3a07b8a29702")
 		)
-		(property "Price" "None"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PJ-320B/Luoyang+Dishang+electronics/view-part/?ref=eda"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendation"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PJ-320B/Luoyang+Dishang+electronics/view-part/?ref=snap"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PJ-320B"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Headphone jack\n                        \n"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Luoyang Dishang electronics"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0caa4c8-48ec-4ec1-9306-b7d6c82c88cd")
+		(pin "4"
+			(uuid "e293c25e-446c-4d64-98e1-c53e0e4b03ef")
 		)
 		(pin "3"
-			(uuid "31af6b7f-b760-4246-9128-14b178f66c3e")
+			(uuid "d3ffac53-3f3c-4af7-b5d0-65c5b3f6dc0f")
 		)
-		(pin "2"
-			(uuid "3e149ea4-84a5-4f94-9ff5-42f1a59fe77c")
+		(pin "7"
+			(uuid "add9dbe8-c89e-4714-b7a2-88a723a32f3a")
 		)
 		(instances
 			(project ""
 				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865/38439c0a-cf83-4abd-ae24-cce86663b1cb"
-					(reference "J5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 66.04 53.34 0)
+		(lib_id "Device:C")
+		(at 54.61 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d83ba6e-7fcc-4862-971f-020b3fce0b6a")
+		(property "Reference" "C8"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10μF"
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 55.5752 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C96446"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part#" "C96446"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06152001-c905-4a8d-9bd3-f5843bdcb04e")
+		)
+		(pin "1"
+			(uuid "46b3fe68-47ac-435f-afb4-9340f0eb71a9")
+		)
+		(instances
+			(project "espa-max"
+				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865/38439c0a-cf83-4abd-ae24-cce86663b1cb"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 63.5 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "601852c6-5e3a-4741-a135-595976600a37")
+		(uuid "882365b0-49cc-46f7-9089-5bb26aec8c90")
 		(property "Reference" "R11"
-			(at 68.58 52.0699 0)
+			(at 66.04 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 68.58 54.6099 0)
+		(property "Value" "10kΩ"
+			(at 66.04 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 64.262 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 53.34 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 63.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,8 +1145,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 66.04 53.34 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25804"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part#" "C25804"
+			(at 63.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,13 +1173,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "aae4da16-41e5-401a-93ec-58d853a04260")
+			(uuid "de6e39e5-7684-43f6-8bfa-9733f4cdc26b")
 		)
 		(pin "2"
-			(uuid "48c6f1e9-eaed-4f10-b4cf-df21e646982c")
+			(uuid "1e643a58-6b46-4f20-94c1-3e8b9524d6ad")
 		)
 		(instances
-			(project ""
+			(project "espa-max"
 				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865/38439c0a-cf83-4abd-ae24-cce86663b1cb"
 					(reference "R11")
 					(unit 1)
@@ -1487,7 +1189,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 58.42 0)
+		(at 67.31 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1496,7 +1198,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1222566-d6cc-4280-9ec9-fc48725e54ab")
 		(property "Reference" "#PWR022"
-			(at 69.85 64.77 0)
+			(at 67.31 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 63.5 0)
+			(at 67.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 58.42 0)
+			(at 67.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 58.42 0)
+			(at 67.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 58.42 0)
+			(at 67.31 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1255,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 66.04 39.37 0)
+		(at 63.5 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1561,7 +1263,7 @@
 		(dnp no)
 		(uuid "a3eee674-2e00-4d26-91b2-b5f4109229c2")
 		(property "Reference" "#PWR023"
-			(at 66.04 43.18 0)
+			(at 63.5 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1272,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 66.04 35.306 0)
+			(at 63.5 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +1280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 39.37 0)
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,7 +1289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 39.37 0)
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 66.04 39.37 0)
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,157 +1319,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 57.15 53.34 0)
+		(lib_id "Device:R_Small")
+		(at 63.5 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e41624e2-6d7e-4159-9a52-5d9a7c44add2")
-		(property "Reference" "C4"
-			(at 60.96 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 60.96 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.1152 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 57.15 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "426a5497-1095-4179-89a3-7c8d85f90a73")
-		)
-		(pin "1"
-			(uuid "e22c995c-ef91-474e-9d1d-db1b9d006b2e")
-		)
-		(instances
-			(project ""
-				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865/38439c0a-cf83-4abd-ae24-cce86663b1cb"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 66.04 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e47fd0d2-1a8e-4d35-bec9-6c8588389e3d")
-		(property "Reference" "R12"
-			(at 68.58 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 68.58 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.262 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 66.04 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68b83dfd-1a53-430e-ba55-f7ec201a6998")
-		)
-		(pin "2"
-			(uuid "27b98d2e-62e5-4dc7-b563-5e2ff8883474")
-		)
-		(instances
-			(project ""
-				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865/38439c0a-cf83-4abd-ae24-cce86663b1cb"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 54.61 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea2abcd6-803b-4ef1-9a97-a7009bcb4f0d")
-		(property "Reference" "D7"
-			(at 57.15 39.3699 90)
+		(uuid "c5772420-7bd5-44c4-8de1-ab4be3e7f74e")
+		(property "Reference" "R13"
+			(at 66.04 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,8 +1337,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D"
-			(at 57.15 41.9099 90)
+		(property "Value" "10kΩ"
+			(at 66.04 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,8 +1346,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 54.61 40.64 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 63.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,8 +1355,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 54.61 40.64 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25804"
+			(at 63.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,8 +1364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 54.61 40.64 0)
+		(property "Description" ""
+			(at 63.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,34 +1373,25 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 54.61 40.64 0)
+		(property "JLC Part#" "C25804"
+			(at 63.5 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 54.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47e39114-6d0e-4129-b7d7-3110e171331a")
 		)
 		(pin "1"
-			(uuid "a38edeba-1af1-4119-bc66-02d04d7aab9c")
+			(uuid "d6f0b9c5-0da1-4b8a-971a-cc5f688f05f1")
+		)
+		(pin "2"
+			(uuid "efca2313-8284-4e3d-8d07-5bf23c7d658f")
 		)
 		(instances
-			(project ""
+			(project "espa-max"
 				(path "/6ab99d2f-b2da-4c6e-b437-3c51d85d9865/38439c0a-cf83-4abd-ae24-cce86663b1cb"
-					(reference "D7")
+					(reference "R13")
 					(unit 1)
 				)
 			)
