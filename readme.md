@@ -2,6 +2,8 @@
 
 This is a custom PCB board designed to work with the [sn_esp32](https://github.com/wayne-love/sn_esp32) source code, to provide users with a simple way to control their SpaNet spa pool equipment. You can read a historical overview of the project [here](https://www.jonathangiles.net/posts/2024/custom-pcbs-and-cases/).
 
+With this design, you are able to fabricate your own PCB board, and use it to control your spa pool equipment. If you do not want to build your own PCB, you can either [build a simpler version of the board using a breadboard](https://espa.diy/hardware-custom-build.html), or you can [purchase a pre-made board](https://espa.diy/hardware-pcb.html) (based on these designs). These boards are sold on a non-commercial basis - they are sold at cost, and are not intended to be a commercial product. If you wish to use these designs commercially, please [contact me](mailto:jonathan@jonathangiles.net).
+
 ## Project Goals
 
 1. Easier to build, with no soldering required,
