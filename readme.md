@@ -77,6 +77,10 @@ Improved placement of ESP32 decoupling capacitors to be before the ESP32, and in
 
 Thicker traces all over PCB.
 
-## Revision 2.0
+## Revision 1.9
 
-Complete redesign of board - it is now bigger, but it has four M3 mounting holes and two RJ-45 connectors to support 'loop' mode.
+Replaced some components with smaller alternatives, and improved the layout of the board to make it easier to manufacture. Kept same board size as previous revisions.
+
+## Revision 2.0 - eSpa Max
+
+Introduced a new board variant - the eSpa Max. It is bigger than the eSpa Mini, but it has three M3 mounting holes and two RJ-45 connectors to support 'loop' mode. It also has support for a CT clamp to measure the power usage of the spa pool.

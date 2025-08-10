@@ -8317,7 +8317,7 @@
 		)
 		(uuid "95cd33a6-1fbe-40e3-a971-9a4ec6a74f81")
 	)
-	(label "+12V_fused"
+	(label "VIN"
 		(at 40.64 143.51 0)
 		(effects
 			(font
@@ -8416,6 +8416,36 @@
 			(justify left bottom)
 		)
 		(uuid "b073896a-20f4-426b-95cb-819fe155b859")
+	)
+	(label "SPA_RX"
+		(at 245.11 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b65be15d-6e6e-4f4e-a944-cae48f42db42")
+	)
+	(label "SW"
+		(at 72.39 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7005d4c-4b78-4317-a95d-26987ea8bb41")
+	)
+	(label "SPA_TX"
+		(at 209.55 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb38cce0-7b69-4c72-bdbf-890e160a0588")
 	)
 	(label "GPIO5"
 		(at 143.51 62.23 0)
@@ -8903,7 +8933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.292 137.16 90)
 			(effects
 				(font
@@ -8912,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C22962"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25091"
 			(at 179.07 137.16 0)
 			(effects
 				(font
@@ -9295,7 +9325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 58.42 38.1 0)
 			(effects
 				(font
@@ -9304,7 +9334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C23186"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25905"
 			(at 58.42 38.1 0)
 			(effects
 				(font
@@ -9322,7 +9352,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part#" "C23186"
+		(property "JLC Part#" "C25905"
 			(at 58.42 38.1 90)
 			(effects
 				(font
@@ -9516,7 +9546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -9525,7 +9555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C23186"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -9543,7 +9573,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part#" "C23186"
+		(property "JLC Part#" "C25905"
 			(at 52.07 35.56 90)
 			(effects
 				(font
@@ -9922,7 +9952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 130.81 27.94 0)
 			(effects
 				(font
@@ -9931,7 +9961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C25804"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25744"
 			(at 130.81 27.94 0)
 			(effects
 				(font
@@ -9949,7 +9979,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part#" "C25804"
+		(property "JLC Part#" "C25744"
 			(at 130.81 27.94 0)
 			(effects
 				(font
@@ -10130,7 +10160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.38 38.1 0)
 			(effects
 				(font
@@ -10139,7 +10169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C15849"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C52923"
 			(at 119.38 38.1 0)
 			(effects
 				(font
@@ -10157,7 +10187,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part#" "C15849"
+		(property "JLC Part#" "C52923"
 			(at 119.38 38.1 0)
 			(effects
 				(font
@@ -10273,7 +10303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 136.652 137.16 90)
 			(effects
 				(font
@@ -10282,7 +10312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C22962"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25091"
 			(at 138.43 137.16 0)
 			(effects
 				(font
@@ -10499,7 +10529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 204.47 144.272 90)
 			(effects
 				(font
@@ -10508,7 +10538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25104"
 			(at 204.47 146.05 0)
 			(effects
 				(font
@@ -10526,7 +10556,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part#" "C23138"
+		(property "JLC Part#" "C25104"
 			(at 204.47 146.05 90)
 			(effects
 				(font
@@ -10644,7 +10674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254 147.828 90)
 			(effects
 				(font
@@ -10653,7 +10683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25104"
 			(at 254 146.05 0)
 			(effects
 				(font
@@ -10671,7 +10701,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part#" "C23138"
+		(property "JLC Part#" "C25104"
 			(at 254 146.05 90)
 			(effects
 				(font
@@ -10789,7 +10819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.892 137.16 90)
 			(effects
 				(font
@@ -10798,7 +10828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C22962"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25091"
 			(at 153.67 137.16 0)
 			(effects
 				(font
@@ -11077,7 +11107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 109.982 160.02 90)
 			(effects
 				(font
@@ -11086,7 +11116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C23186"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25905"
 			(at 111.76 160.02 0)
 			(effects
 				(font
@@ -11104,7 +11134,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC Part#" "C23186"
+		(property "JLC Part#" "C25905"
 			(at 111.76 160.02 0)
 			(effects
 				(font
@@ -12873,7 +12903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 164.592 137.16 90)
 			(effects
 				(font
@@ -12882,7 +12912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/C22962"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C25091"
 			(at 166.37 137.16 0)
 			(effects
 				(font
